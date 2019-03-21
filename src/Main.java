@@ -38,6 +38,18 @@ public class Main {
         int[] temp5 = {64, 34, 25, 12, 22, 11, 90};
         InsertionSort.sortUsingInsertionSort(temp5);
 
+        System.out.println();
+        System.out.println();
+
+        int[] temp6 = {64, 34, 25, 12, 22, 11, 90};
+        InsertionSort.sortUsingInsertionSortRecursive(temp6);
+
+        System.out.println();
+        System.out.println();
+
+        int[] temp7 = {64, 34, 25, 12, 22, 11, 90};
+        InsertionSort.sortUsingInsertionSortBinary(temp7);
+
 
     }
 }
