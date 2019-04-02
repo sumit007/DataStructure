@@ -1,3 +1,7 @@
+package sorting;
+
+import util.PrintUtil;
+
 public class BubbleSort {
 
     /*

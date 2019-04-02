@@ -1,3 +1,10 @@
+package main;
+
+
+import sorting.BubbleSort;
+import sorting.SelectionSort;
+import sorting.InsertionSort;
+
 public class Main {
 
     public static void main(String[] args) {

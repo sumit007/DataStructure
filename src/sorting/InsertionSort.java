@@ -1,3 +1,5 @@
+package sorting;
+
 /*
 
 Time complexity - O(n*n)
@@ -13,6 +15,7 @@ only few elements are misplaced in complete big array.
  */
 
 
+import util.PrintUtil;
 import java.util.Arrays;
 
 public class InsertionSort {

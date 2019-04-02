@@ -1,3 +1,5 @@
+package sorting;
+
 public class BinarySearch {
 
     private static int bSearch(int[] arrayToSearch, int lIndex, int rIndex, int xNum) {

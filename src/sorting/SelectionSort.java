@@ -1,3 +1,7 @@
+package sorting;
+
+import util.PrintUtil;
+
 public class SelectionSort {
 
     private static int getMinIndex(int[] arrayToSort, int i, int minIndex) {

@@ -1,3 +1,5 @@
+package util;
+
 public class PrintUtil {
     public static void printArray(int[] arrayToSort, String message) {
         System.out.println(message);
