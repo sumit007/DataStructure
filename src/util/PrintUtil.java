@@ -18,4 +18,25 @@ public class PrintUtil {
 
         System.out.println();
     }
+    
+    public static void printLinkedList(LinkedListNode head, String message) {
+        System.out.println(message);
+        if(head == null) {
+            System.out.println("LinkedList is empty");
+            return;
+        }
+        
+        LinkedListNode tempNode = head;
+        
+        while (tempNode != null) {
+            System.out.print(tempNode.data + " -> ");
+            tempNode = tempNode.next;
+        }
+        
+        System.out.println();
+    }
+
+    public static void printLinkedList(LinkedListNode tempNode) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
