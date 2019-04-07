@@ -9,12 +9,9 @@ public class Main {
         //DemoSorting.demoSortingAlgos();
         
         //Demo Linked List
-        int[] temp = {348, 232, 232, 323, 32, 233, 78};
-        LinkedList linkedList = new LinkedList();
-        linkedList.createLinkedList(temp);
+        //DemoLinkedList.demoLinkedListCreateDeletePush();
         
-        linkedList.delete(232);
-        
+        DemoLinkedList.demoLinkedListSorting();
         
     }
 }

@@ -21,7 +21,7 @@ public class LinkedList {
         head = null;
     }
     
-    private void push(int data) {
+    public void push(int data) {
         if(head == null) {
             head = new LinkedListNode(data);
             
@@ -34,6 +34,9 @@ public class LinkedList {
             LinkedListNode node = new LinkedListNode(data);
             temp.next = node;
         }
+        
+        //LinkedListNode tempNode = head;
+        //PrintUtil.printLinkedList(tempNode, "LinkedList after push deletion");
     }
     
     public int delete(int num) {
@@ -80,12 +83,7 @@ public class LinkedList {
     }
     
     public void sort() {
-        LinkedListNode tempNode = head;
-        PrintUtil.printLinkedList(tempNode, "Unsorted linkedlist");
-        
-        LinkedListNode sortedHead = MergeSort.sortLinkedList(tempNode);
-        
-        PrintUtil.printLinkedList(tempNode, "Sorted linkedlist");
+        LinkedListNode sortedHead = MergeSort.sortLinkedList(head);
         
     }
     
