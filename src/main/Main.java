@@ -2,6 +2,8 @@ package main;
 
 
 import dataStructures.linear.LinkedList;
+import dataStructures.linear.array.InversionCount;
+import sorting.application.MergeSortInversionCount;
 
 public class Main {
 
@@ -11,7 +13,10 @@ public class Main {
         //Demo Linked List
         //DemoLinkedList.demoLinkedListCreateDeletePush();
         
-        DemoLinkedList.demoLinkedListSorting();
+        //DemoLinkedList.demoLinkedListSorting();
+        
+        InversionCount.countInversion();
+        MergeSortInversionCount.printInversionCount();
         
     }
 }

@@ -5,7 +5,7 @@
  */
 package dataStructures.linear;
 
-import sorting.MergeSort;
+import sorting.application.MergeSortApplicationLinkedlistSort;
 import util.LinkedListNode;
 import util.PrintUtil;
 
@@ -83,7 +83,7 @@ public class LinkedList {
     }
     
     public void sort() {
-        LinkedListNode sortedHead = MergeSort.sortLinkedList(head);
+        LinkedListNode sortedHead = MergeSortApplicationLinkedlistSort.sortLinkedList(head);
         
     }
     
