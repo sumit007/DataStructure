@@ -8,6 +8,7 @@ package main;
 import sorting.BubbleSort;
 import sorting.InsertionSort;
 import sorting.MergeSort;
+import sorting.QuickSort;
 import sorting.SelectionSort;
 
 /**
@@ -86,6 +87,14 @@ public class DemoSorting {
     public static void demoMergeSort() {
         int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
         MergeSort.sortUsingMergeSort(temp8);
+        
+        System.out.println();
+        System.out.println();
+    }
+    
+    public static void demoQuickSort() {
+        int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
+        QuickSort.sort(temp8);
         
         System.out.println();
         System.out.println();

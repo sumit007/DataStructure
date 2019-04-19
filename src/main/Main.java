@@ -15,8 +15,10 @@ public class Main {
         
         //DemoLinkedList.demoLinkedListSorting();
         
-        InversionCount.countInversion();
-        MergeSortInversionCount.printInversionCount();
+        //InversionCount.countInversion();
+        //MergeSortInversionCount.printInversionCount();
+        
+        DemoSorting.demoQuickSort();
         
     }
 }
