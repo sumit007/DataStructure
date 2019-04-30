@@ -3,6 +3,8 @@ package main;
 
 import dataStructures.linear.LinkedList;
 import dataStructures.linear.array.InversionCount;
+import dataStructures.tree.heap.MaxHeap;
+import sorting.HeapSort;
 import sorting.application.MergeSortInversionCount;
 
 public class Main {
@@ -18,7 +20,11 @@ public class Main {
         //InversionCount.countInversion();
         //MergeSortInversionCount.printInversionCount();
         
-        DemoSorting.demoQuickSort();
+        //DemoSorting.demoQuickSort();
+        //int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
+        //MaxHeap.initialiseHeap(temp8);
+        
+        HeapSort.demoHeapSort();
         
     }
 }
