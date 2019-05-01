@@ -35,16 +35,11 @@ public class MaxHeap {
     }
     
     private boolean isLeaf(int pos) {
-        if(pos >= (size/2) && pos <= size ) {
-            return true;
-        }
-        
-        return false;
+        return pos >= (size/2) && pos <= size;
     }
     
     private void swap(int fPos, int sPos) {
-        int temp;
-        temp = heap[fPos];
+        int temp = heap[fPos];
         heap[fPos] = heap[sPos];
         heap[sPos] = temp;
     }
@@ -88,8 +83,7 @@ public class MaxHeap {
         } 
     }
     
-    public int extractMax() 
-    { 
+    public int extractMax() { 
         int popped = heap[1]; 
         heap[1] = heap[size--]; 
         heapify(1); 
