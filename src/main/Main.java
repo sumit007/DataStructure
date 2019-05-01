@@ -25,10 +25,10 @@ public class Main {
         //int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
         //MaxHeap.initialiseHeap(temp8);
         
-        //HeapSort.demoHeapSort();
+        HeapSort.demoMinHeapSort();
         
-        int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
-        MinHeap.initialiseHeap(temp8);
+        //int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
+        //MinHeap.initialiseHeap(temp8);
         
     }
 }
