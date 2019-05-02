@@ -19,6 +19,15 @@ public class PrintUtil {
         System.out.println();
     }
     
+    public static void printArray(char[] arrayToSort, String message) {
+        System.out.println(message);
+        for (char i1 : arrayToSort) {
+            System.out.print(i1);
+        }
+
+        System.out.println();
+    }
+    
     public static void printLinkedList(LinkedListNode head, String message) {
         System.out.println(message);
         if(head == null) {

@@ -5,6 +5,7 @@ import dataStructures.linear.LinkedList;
 import dataStructures.linear.array.InversionCount;
 import dataStructures.tree.heap.MaxHeap;
 import dataStructures.tree.heap.MinHeap;
+import sorting.CountingSort;
 import sorting.HeapSort;
 import sorting.application.KthLargestElement;
 import sorting.application.MergeSortInversionCount;
@@ -29,7 +30,9 @@ public class Main {
         //HeapSort.demoHeapSort();
         //HeapSort.demoMinHeapSort();
         
-        KthLargestElement.testKthLargestElement();
+        //KthLargestElement.testKthLargestElement();
+        
+        CountingSort.demoCountingSort();
         
         //int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
         //MinHeap.initialiseHeap(temp8);
