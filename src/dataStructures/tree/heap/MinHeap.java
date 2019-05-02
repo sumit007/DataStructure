@@ -11,9 +11,9 @@ package dataStructures.tree.heap;
  */
 public class MinHeap {
     
-    private int[] minHeap;
+    private final int[] minHeap;
     private int size;
-    private int capacity;
+    private final int capacity;
     
     public MinHeap(int capacity) {
         this.capacity = capacity;
@@ -82,27 +82,42 @@ public class MinHeap {
         } 
     }
     
-    public int extractMax() { 
+    public int extractMin() { 
         int popped = this.minHeap[1]; 
         this.minHeap[1] = this.minHeap[size--];
         heapify(1); 
         return popped; 
     } 
     
+    /**
+     * Utility methods to find the Kth Largest element
+     * 
+     * @return 
+     */
+    public int getMinInHeap() {
+        return this.minHeap[1];
+    }
+    
+    public void replaceMinInHeap(int newMax) {
+        this.minHeap[1] = newMax;
+        heapify(1);
+    }
+    
     public static MinHeap initialiseHeap(int[] array) {
-        System.out.println("The Max Heap is "); 
-        MinHeap maxHeap = new MinHeap(15); 
+        
+        MinHeap minHeap = new MinHeap(15); 
         for (int i : array) {
-            maxHeap.insert(i);
+            minHeap.insert(i);
         }
   
+        /*System.out.println("The Max Heap is "); 
+        minHeap.print(); 
+        System.out.println("The max val is " + minHeap.extractMax());
         maxHeap.print(); 
         System.out.println("The max val is " + maxHeap.extractMax());
-        maxHeap.print(); 
-        System.out.println("The max val is " + maxHeap.extractMax());
-        maxHeap.print(); 
+        maxHeap.print(); */
         
-        return maxHeap;
+        return minHeap;
     }
     
 }

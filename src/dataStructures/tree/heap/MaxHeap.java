@@ -90,18 +90,32 @@ public class MaxHeap {
         return popped; 
     } 
     
+    /**
+     * Utility methods to find the Kth element
+     * 
+     */
+    public int getMaxInHeap() {
+        return heap[0];
+    }
+    
+    public void replaceMaxInHeap(int newMax) {
+        heap[0] = newMax;
+        heapify(0);
+    }
+    
+    public void testMaxHeap(MaxHeap maxHeap) {
+        maxHeap.print(); 
+        System.out.println("The max val is " + maxHeap.extractMax());
+        maxHeap.print(); 
+        System.out.println("The max val is " + maxHeap.extractMax());
+        maxHeap.print(); 
+    }
+    
     public static MaxHeap initialiseHeap(int[] array) {
-        System.out.println("The Max Heap is "); 
         MaxHeap maxHeap = new MaxHeap(15); 
         for (int i : array) {
             maxHeap.insert(i);
         }
-  
-        maxHeap.print(); 
-        System.out.println("The max val is " + maxHeap.extractMax());
-        maxHeap.print(); 
-        System.out.println("The max val is " + maxHeap.extractMax());
-        maxHeap.print(); 
         
         return maxHeap;
     }
