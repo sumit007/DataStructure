@@ -92,7 +92,7 @@ public class MinHeap {
     /**
      * Utility methods to find the Kth Largest element
      * 
-     * @return 
+     * @return current min element in Heap
      */
     public int getMinInHeap() {
         return this.minHeap[1];

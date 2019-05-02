@@ -93,14 +93,15 @@ public class MaxHeap {
     /**
      * Utility methods to find the Kth element
      * 
+     * @return current maxElement in Heap
      */
     public int getMaxInHeap() {
-        return heap[0];
+        return heap[1];
     }
     
     public void replaceMaxInHeap(int newMax) {
-        heap[0] = newMax;
-        heapify(0);
+        this.heap[1] = newMax;
+        heapify(1);
     }
     
     public void testMaxHeap(MaxHeap maxHeap) {
