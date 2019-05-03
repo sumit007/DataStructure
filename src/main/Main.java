@@ -9,6 +9,7 @@ import sorting.CountingSort;
 import sorting.HeapSort;
 import sorting.application.KthLargestElement;
 import sorting.application.MergeSortInversionCount;
+import sorting.application.SortAnArrayOfO1And2;
 import sorting.application.SortNearlySortedArray;
 
 public class Main {
@@ -35,7 +36,8 @@ public class Main {
         
         //CountingSort.demoCountingSort();
         
-        SortNearlySortedArray.testSortNearlySortedArray();
+        //SortNearlySortedArray.testSortNearlySortedArray();
+        SortAnArrayOfO1And2.testSortArrayOf01and2();
         
         //int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
         //MinHeap.initialiseHeap(temp8);

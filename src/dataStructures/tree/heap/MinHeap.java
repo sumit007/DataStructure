@@ -105,7 +105,7 @@ public class MinHeap {
     
     public static MinHeap initialiseHeap(int[] array) {
         
-        MinHeap minHeap = new MinHeap(array.length + 1); 
+        MinHeap minHeap = new MinHeap(15); 
         for (int i : array) {
             minHeap.insert(i);
         }
