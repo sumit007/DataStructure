@@ -87,4 +87,8 @@ public class LinkedList {
         
     }
     
+    public void reverse() {
+        
+    } 
+    
 }
