@@ -6,6 +6,7 @@ import dataStructures.linear.array.InversionCount;
 import dataStructures.tree.heap.MaxHeap;
 import dataStructures.tree.heap.MinHeap;
 import searching.BinarySearch;
+import searching.PivotedBinarySearch;
 import sorting.CountingSort;
 import sorting.HeapSort;
 import sorting.application.KthLargestElement;
@@ -40,8 +41,9 @@ public class Main {
         //SortNearlySortedArray.testSortNearlySortedArray();
         //SortAnArrayOfO1And2.testSortArrayOf01and2();
         
-        BinarySearch.demoBinarySearch();
+        //BinarySearch.demoBinarySearch();
         
+        PivotedBinarySearch.demoPivotedSearch();
         //int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
         //MinHeap.initialiseHeap(temp8);
         
