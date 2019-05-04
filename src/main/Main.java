@@ -13,6 +13,7 @@ import sorting.application.KthLargestElement;
 import sorting.application.MergeSortInversionCount;
 import sorting.application.SortAnArrayOfO1And2;
 import sorting.application.SortNearlySortedArray;
+import sorting.application.SortingRotatedArray;
 
 public class Main {
 
@@ -43,7 +44,8 @@ public class Main {
         
         //BinarySearch.demoBinarySearch();
         
-        PivotedBinarySearch.demoPivotedSearch();
+        //PivotedBinarySearch.demoPivotedSearch();
+        SortingRotatedArray.demoSortingRotatedArray();
         //int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
         //MinHeap.initialiseHeap(temp8);
         
