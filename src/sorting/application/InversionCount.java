@@ -5,8 +5,6 @@
  */
 package sorting.application;
 
-import dataStructures.linear.array.*;
-
 /**
  *
  * @author sumit

@@ -9,6 +9,18 @@ public class PrintUtil {
 
         System.out.println();
     }
+    
+    public static void printArray(int[][] array, int n,String message) {
+        System.out.println(message);
+        for (int i = 0; i < n; i++ ) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(array[i][j] + "  ");
+            }
+            System.out.println();
+        }
+        
+        System.out.println();
+    }
 
     public static void printArray(String[] arrayToSort, String message) {
         System.out.println(message);

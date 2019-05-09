@@ -2,13 +2,15 @@ package main;
 
 
 import dataStructures.linear.LinkedList;
-import dataStructures.linear.array.InversionCount;
+import dataStructures.linear.array.oned.InversionCount;
+import dataStructures.linear.array.twod.MagicSquare;
 import dataStructures.tree.heap.MaxHeap;
 import dataStructures.tree.heap.MinHeap;
 import searching.BinarySearch;
 import searching.PivotedBinarySearch;
 import sorting.CountingSort;
 import sorting.HeapSort;
+import sorting.application.CheckSortedAndRotatedArray;
 import sorting.application.KthLargestElement;
 import sorting.application.MergeSortInversionCount;
 import sorting.application.SortAnArrayOfO1And2;
@@ -45,9 +47,13 @@ public class Main {
         //BinarySearch.demoBinarySearch();
         
         //PivotedBinarySearch.demoPivotedSearch();
-        SortingRotatedArray.demoSortingRotatedArray();
+       // SortingRotatedArray.demoSortingRotatedArray();
         //int[] temp8 = {64, 34, 25, 12, 22, 11, 90};
         //MinHeap.initialiseHeap(temp8);
+        
+        //CheckSortedAndRotatedArray.demoCheckSortedRotatedArray();
+        
+        MagicSquare.generateAllMagicSquare(3);
         
     }
 }
