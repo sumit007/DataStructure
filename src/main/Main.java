@@ -3,6 +3,7 @@ package main;
 
 import dataStructures.linear.LinkedList;
 import dataStructures.linear.array.oned.InversionCount;
+import dataStructures.linear.array.oned.LargestContiguousSumArray;
 import dataStructures.linear.array.twod.MagicSquare;
 import dataStructures.tree.heap.MaxHeap;
 import dataStructures.tree.heap.MinHeap;
@@ -53,7 +54,9 @@ public class Main {
         
         //CheckSortedAndRotatedArray.demoCheckSortedRotatedArray();
         
-        MagicSquare.generateAllMagicSquare(3);
+        //MagicSquare.generateAllMagicSquare(3);
+        
+        LargestContiguousSumArray.demoLargestContiguousSumArray();
         
     }
 }
