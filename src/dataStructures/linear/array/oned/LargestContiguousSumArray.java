@@ -8,6 +8,9 @@ package dataStructures.linear.array.oned;
 /**
  *
  * @author sumit
+ * 
+ * programing paradigm used - Dynamic Programing
+ * 
  */
 public class LargestContiguousSumArray {
     
